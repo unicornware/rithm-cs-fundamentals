@@ -1,0 +1,18 @@
+# Prettier Ignore
+# See: https://prettier.io/docs/en/ignore.html
+
+.husky/_/*
+.yarn/*
+coverage/*
+node_modules/*
+
+**/.gitkeep
+.eslintignore
+.env.*
+.env
+.github/.gitconfig
+.gitignore
+.markdownlintignore
+.prettierignore
+CHANGELOG.md
+yarn.lock
