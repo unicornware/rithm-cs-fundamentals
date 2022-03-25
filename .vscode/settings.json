@@ -42,6 +42,11 @@
       "icon": "lintstagedrc"
     },
     {
+      "extensions": [".markdownlint.yml", ".markdownlintignore"],
+      "format": "svg",
+      "icon": "markdownlint"
+    },
+    {
       "extensions": ["yarnrc.yml"],
       "format": "svg",
       "icon": "yarn"
