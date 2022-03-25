@@ -62,7 +62,7 @@ const config = {
   ],
   retries: 0,
   sort: true,
-  spec: 'src/{**}/__tests__/*.spec.ts',
+  spec: 'src/**/__tests__/*.spec.ts',
   timeout: 10 * 1000,
   ui: 'bdd',
   watch: false

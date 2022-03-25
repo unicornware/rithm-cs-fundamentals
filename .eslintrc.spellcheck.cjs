@@ -152,7 +152,7 @@ const config = {
           SEVERITY,
           Object.assign({}, OPTIONS, {
             ...OPTIONS,
-            skipWords: [...SKIP_WORDS]
+            skipWords: [...SKIP_WORDS, 'csf']
           })
         ]
       }
