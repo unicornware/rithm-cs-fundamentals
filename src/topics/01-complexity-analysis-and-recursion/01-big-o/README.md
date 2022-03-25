@@ -214,7 +214,7 @@ function double(array) {
 // space complexity: O(n) => length of `newArray`, equal to `n`
 ```
 
-## References
+## Additional Resources
 
 - [Pursuit Core Data Structures and Algorithms - Big O Notation][2]
 

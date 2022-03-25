@@ -172,3 +172,13 @@ allRecursive(numbersArray, function (v) {
   return v > 0
 })
 ```
+
+## Additional Resources
+
+- [Computerphile - What on Earth is Recursion?][1]
+- [Fun Fun Function - Recursion][2]
+- [The Modern JavaScript Tutorial - Recursion and stack][3]
+
+[1]: https://www.youtube.com/watch?v=Mv9NEXX1VHc
+[2]: https://www.youtube.com/watch?v=k7-N8R0-KY4
+[3]: https://javascript.info/recursion
