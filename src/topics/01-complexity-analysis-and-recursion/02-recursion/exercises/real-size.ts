@@ -3,7 +3,7 @@
  * @module csf/topics/recursion/exercises/realSize
  */
 
-import { OneOrMany } from '@flex-development/tutils'
+import type { OneOrMany } from '@flex-development/tutils'
 
 /**
  * First argument passed to {@link realSize}.
