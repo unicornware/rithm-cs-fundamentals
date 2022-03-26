@@ -10,18 +10,23 @@ describe('unit:recursion/exercises/SumSquares', () => {
   interface Case extends TestcaseFn<typeof testSubject> {}
 
   const cases: Case[] = [
-    { args: [[]], expected: 0 },
-    { args: [[[]]], expected: 0 },
-    { args: [[1, 2, 3]], expected: 14 },
-    { args: [[[1, 2], 3]], expected: 14 },
-    { args: [[[[[[[[[[1]]]]]]]]]], expected: 1 },
-    { args: [[10, [[10], 10], [10]]], expected: 400 },
-    { args: [[1, [[3], 10, 5, [2, [3], [4], [5, [6]]]], [10]]], expected: 325 }
+    { expected: 0, parameters: [[]] },
+    { expected: 0, parameters: [[[]]] },
+    { expected: 14, parameters: [[1, 2, 3]] },
+    { expected: 14, parameters: [[[1, 2], 3]] },
+    { expected: 1, parameters: [[[[[[[[[[1]]]]]]]]]] },
+    { expected: 400, parameters: [[10, [[10], 10], [10]]] },
+    {
+      expected: 325,
+      parameters: [[1, [[3], 10, 5, [2, [3], [4], [5, [6]]]], [10]]]
+    }
   ]
 
-  cases.forEach(({ args, expected }) => {
-    it(`should return ${expected} given ${pf(args, { min: true })}`, () => {
-      expect(testSubject(...args)).to.equal(expected)
+  cases.forEach(({ expected, parameters }) => {
+    const args = pf(parameters, { min: true })
+
+    it(`should return ${expected} given ${args}`, () => {
+      expect(testSubject(...parameters)).to.equal(expected)
     })
   })
 })

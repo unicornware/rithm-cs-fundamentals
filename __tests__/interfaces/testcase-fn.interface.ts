@@ -14,7 +14,7 @@ import type Testcase from './testcase.interface'
  */
 interface TestcaseFn<T extends (...args: any[]) => any>
   extends Testcase<ReturnType<T>> {
-  args: Parameters<T>
+  parameters: Parameters<T>
 }
 
 export default TestcaseFn

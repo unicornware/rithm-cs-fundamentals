@@ -43,7 +43,7 @@ pass.
 
    - <https://codewars.com/kata/the-real-size-of-a-multi-dimensional-array/train/javascript>
    - <https://codewars.com/kata/sum-squares-of-numbers-in-list-that-may-contain-more-lists/train/javascript>
-   - <https://codewars.com/kata/recursive-replication>
+   - <https://codewars.com/kata/recursive-replication/train/javascript>
 
 ## Bonus
 

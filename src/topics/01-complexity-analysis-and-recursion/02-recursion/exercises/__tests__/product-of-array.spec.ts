@@ -10,15 +10,17 @@ describe('unit:recursion/exercises/productOfArray', () => {
   interface Case extends TestcaseFn<typeof testSubject> {}
 
   const cases: Case[] = [
-    { args: [[1, -2, 3]], expected: -6 },
-    { args: [[]], expected: 0 },
-    { args: [[0, 1, 2, 3]], expected: 0 },
-    { args: [[1, 2, 3]], expected: 6 }
+    { expected: -6, parameters: [[1, -2, 3]] },
+    { expected: 0, parameters: [[]] },
+    { expected: 0, parameters: [[0, 1, 2, 3]] },
+    { expected: 6, parameters: [[1, 2, 3]] }
   ]
 
-  cases.forEach(({ args, expected }) => {
-    it(`should return ${expected} given ${pf(args, { min: true })}`, () => {
-      expect(testSubject(...args)).to.equal(expected)
+  cases.forEach(({ expected, parameters }) => {
+    const args = pf(parameters, { min: true })
+
+    it(`should return ${expected} given ${args}`, () => {
+      expect(testSubject(...parameters)).to.equal(expected)
     })
   })
 })

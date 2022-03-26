@@ -10,16 +10,17 @@ describe('unit:recursion/exercises/contains', () => {
   interface Case extends TestcaseFn<typeof testSubject> {}
 
   const cases: Case[] = [
-    { args: [{}, 'data'], expected: false },
+    { expected: false, parameters: [{}, 'data'] },
     {
-      args: [
+      expected: false,
+      parameters: [
         { data: { hello: 'world', people: ['john'], pets: {} }, foo: 2 },
         'foo'
-      ],
-      expected: false
+      ]
     },
     {
-      args: [
+      expected: true,
+      parameters: [
         {
           data: {
             info: {
@@ -34,14 +35,15 @@ describe('unit:recursion/exercises/contains', () => {
           }
         },
         44
-      ],
-      expected: true
+      ]
     }
   ]
 
-  cases.forEach(({ args, expected }) => {
-    it(`should return ${expected} given ${pf(args, { min: true })}`, () => {
-      expect(testSubject(...args)).to.equal(expected)
+  cases.forEach(({ expected, parameters }) => {
+    const args = pf(parameters, { min: true })
+
+    it(`should return ${expected} given ${args}`, () => {
+      expect(testSubject(...parameters)).to.equal(expected)
     })
   })
 })

@@ -70,6 +70,7 @@ const SKIP_WORDS = [
   'msg',
   'namespace',
   'ncc',
+  'num',
   'nums',
   'os',
   'perf',
