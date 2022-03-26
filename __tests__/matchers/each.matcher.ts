@@ -6,8 +6,8 @@
 /**
  * Wraps each item in an array in a {@link chai.Assertion}.
  *
- * [1]: https://www.chaijs.com/api
- * [2]: https://www.chaijs.com/api/plugins
+ * [1]: https://chaijs.com/api
+ * [2]: https://chaijs.com/api/plugins
  *
  * @param {Chai.ChaiStatic} chai - [`chai`][1] module
  * @param {Chai.ChaiUtils} utils - [Plugin utilities][2]

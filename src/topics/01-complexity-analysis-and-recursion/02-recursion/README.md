@@ -1,7 +1,7 @@
 # Introduction to Recursion
 
 See:
-<https://www.rithmschool.com/courses/javascript-computer-science-fundamentals/introduction-to-recursion>
+<https://rithmschool.com/courses/javascript-computer-science-fundamentals/introduction-to-recursion>
 
 ## Objectives
 
@@ -171,6 +171,6 @@ allRecursive(numbersArray, function (v) {
 - [Fun Fun Function - Recursion][2]
 - [The Modern JavaScript Tutorial - Recursion and stack][3]
 
-[1]: https://www.youtube.com/watch?v=Mv9NEXX1VHc
-[2]: https://www.youtube.com/watch?v=k7-N8R0-KY4
+[1]: https://youtube.com/watch?v=Mv9NEXX1VHc
+[2]: https://youtube.com/watch?v=k7-N8R0-KY4
 [3]: https://javascript.info/recursion

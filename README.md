@@ -23,5 +23,4 @@ cd rithm-cs-fundamentals && yarn
 yarn test
 ```
 
-[1]:
-  https://www.rithmschool.com/courses/javascript-computer-science-fundamentals
+[1]: https://rithmschool.com/courses/javascript-computer-science-fundamentals

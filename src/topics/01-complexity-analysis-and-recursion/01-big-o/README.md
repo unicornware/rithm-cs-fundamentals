@@ -1,7 +1,7 @@
 # Introduction to Big O Notation
 
 See:
-<https://www.rithmschool.com/courses/javascript-computer-science-fundamentals/introduction-to-big-o-notation>
+<https://rithmschool.com/courses/javascript-computer-science-fundamentals/introduction-to-big-o-notation>
 
 ## Objectives
 

@@ -63,7 +63,7 @@ pass.
    binarySearch([1, 2, 3, 4, 5], 15) // -1
    ```
 
-   See: [How Binary Search Works](https://www.youtube.com/watch?v=JQhciTuD3E8)
+   See: [How Binary Search Works](https://youtube.com/watch?v=JQhciTuD3E8)
 
 3. Write a function called `stringifyNumbers` which takes in an object and finds
    all of the values which are numbers and converts them to strings
