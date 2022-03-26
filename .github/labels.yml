@@ -48,12 +48,12 @@
   description: CI/CD
   color: 74cefc
 
-- name: scope:deps
-  description: Dependency updates
+- name: scope:data-structures
+  description: Data structures
   color: 74cefc
 
-- name: scope:ds
-  description: Data structures
+- name: scope:deps
+  description: Dependency updates
   color: 74cefc
 
 - name: scope:dynamic-programming
