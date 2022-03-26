@@ -1,6 +1,6 @@
 /**
  * @file Recursion Exercises - productOfArray
- * @module csf/topics/1.2/exercises/productOfArray
+ * @module csf/topics/recursion/exercises/productOfArray
  */
 
 /**

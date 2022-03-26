@@ -11,7 +11,7 @@
   ],
   "excludeNodeModules": true,
   "extension": [".ts"],
-  "include": ["./src"],
+  "include": ["src"],
   "report-dir": "./coverage",
   "reporter": ["json-summary", "lcov", "text"],
   "skip-full": false,

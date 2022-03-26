@@ -15,6 +15,7 @@ node_modules/*
 .github/.gitconfig
 .gitignore
 .markdownlintignore
+.nycrc
 .prettierignore
 CHANGELOG.md
 yarn.lock

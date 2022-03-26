@@ -1,26 +1,24 @@
 /**
  * @file Unit Tests - productOfArray
- * @module csf/topics/1.2/exercises/tests/unit/productOfArray
+ * @module csf/topics/recursion/exercises/tests/unit/productOfArray
  */
 
-import type { Testcase } from '@tests/interfaces'
+import type { TestcaseFn } from '@tests/interfaces'
 import testSubject from '../product-of-array'
 
-describe('unit:1.2/exercises/productOfArray', () => {
-  interface Case extends Testcase<ReturnType<typeof testSubject>> {
-    nums: number[]
-  }
+describe('unit:recursion/exercises/productOfArray', () => {
+  interface Case extends TestcaseFn<typeof testSubject> {}
 
   const cases: Case[] = [
-    { expected: -6, nums: [1, -2, 3] },
-    { expected: 0, nums: [] },
-    { expected: 0, nums: [0, 1, 2, 3] },
-    { expected: 6, nums: [1, 2, 3] }
+    { args: [[1, -2, 3]], expected: -6 },
+    { args: [[]], expected: 0 },
+    { args: [[0, 1, 2, 3]], expected: 0 },
+    { args: [[1, 2, 3]], expected: 6 }
   ]
 
-  cases.forEach(({ expected, nums }) => {
-    it(`should return ${expected} given [${pf(nums, { min: true })}]`, () => {
-      expect(testSubject(nums)).to.equal(expected)
+  cases.forEach(({ args, expected }) => {
+    it(`should return ${expected} given ${pf(args, { min: true })}`, () => {
+      expect(testSubject(...args)).to.equal(expected)
     })
   })
 })

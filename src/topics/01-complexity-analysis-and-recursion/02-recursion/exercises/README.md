@@ -41,9 +41,9 @@ pass.
 
 3. Complete the following CodeWars problems:
 
-   - <https://www.codewars.com/kata/the-real-size-of-a-multi-dimensional-array/train/javascript>
-   - <https://www.codewars.com/kata/sum-squares-of-numbers-in-list-that-may-contain-more-lists/train/javascript>
-   - <https://www.codewars.com/kata/recursive-replication>
+   - <https://codewars.com/kata/the-real-size-of-a-multi-dimensional-array/train/javascript>
+   - <https://codewars.com/kata/sum-squares-of-numbers-in-list-that-may-contain-more-lists/train/javascript>
+   - <https://codewars.com/kata/recursive-replication>
 
 ## Bonus
 
@@ -92,4 +92,4 @@ pass.
 
 4. Complete the following CodeWars problem:
 
-   - <https://www.codewars.com/kata/mutual-recursion/train/javascript>
+   - <https://codewars.com/kata/mutual-recursion/train/javascript>

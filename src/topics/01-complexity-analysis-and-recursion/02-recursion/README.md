@@ -81,14 +81,6 @@ function power(base, exponent) {
 // base case: `if (exponent === 0) return 1`
 ```
 
-```javascript
-function factorial(num) {
-  if (num === 1) return 1
-  return num * factorial(num - 1)
-}
-// base case: `if (num === 1) return 1`
-```
-
 ## Scope in Recursion
 
 - To help with scope, you can create a `wrapper` or `helper` function which will
