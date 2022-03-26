@@ -56,6 +56,10 @@
   description: Data structures
   color: 74cefc
 
+- name: scope:dynamic-programming
+  description: Dynamic programming
+  color: 74cefc
+
 - name: scope:graphs
   description: Graphs
   color: 74cefc
