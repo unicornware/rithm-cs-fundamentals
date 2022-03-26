@@ -8,9 +8,7 @@
  * values in `nums`.
  *
  * @example productOfArray([1, 2, 3]) => 6
- * @example productOfArray([0, 1, 2, 3]) => 0
- * @example productOfArray([1, -2, 3]) => -6
- * @example productOfArray([]) => 0
+ * @example productOfArray([1, 2, 3, 10]) => 60
  *
  * @param {number[]} nums - Integer array
  * @return {number} Product of integers in `nums`

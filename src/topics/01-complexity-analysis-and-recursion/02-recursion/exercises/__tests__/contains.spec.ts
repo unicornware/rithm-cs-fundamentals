@@ -14,7 +14,26 @@ describe('unit:recursion/exercises/contains', () => {
     {
       expected: false,
       parameters: [
-        { data: { hello: 'world', people: ['john'], pets: {} }, foo: 2 },
+        { data: { eggs: 'fried', guests: {}, people: ['john'] }, total: 1 },
+        'total'
+      ]
+    },
+    {
+      expected: false,
+      parameters: [
+        {
+          data: {
+            info: {
+              stuff: {
+                thing: {
+                  moreStuff: {
+                    magicNumber: 44
+                  }
+                }
+              }
+            }
+          }
+        },
         'foo'
       ]
     },

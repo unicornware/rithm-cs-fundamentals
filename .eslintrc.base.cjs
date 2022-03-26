@@ -13,7 +13,7 @@ const spec = require('./.eslintrc.spec.cjs')
  */
 const config = {
   env: {
-    es2019: true,
+    es2020: true,
     node: true
   },
   extends: [
@@ -767,7 +767,7 @@ const config = {
     'unicorn/prefer-array-flat-map': 2,
     'unicorn/prefer-array-index-of': 2,
     'unicorn/prefer-array-some': 2,
-    'unicorn/prefer-at': 2,
+    'unicorn/prefer-at': 0,
     'unicorn/prefer-code-point': 2,
     'unicorn/prefer-date-now': 2,
     'unicorn/prefer-default-parameters': 2,

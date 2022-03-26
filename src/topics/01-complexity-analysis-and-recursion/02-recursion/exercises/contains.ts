@@ -9,9 +9,8 @@ import { JSONPrimitive, ObjectPlain } from '@flex-development/tutils'
  * Given an object, `obj`, the function returns `true` if the object includes a
  * top-level or nested key with the value `value`.
  *
- * @example contains({ stuff: { thing: { more: { magic: 44 } } } }, 44) => true
- * @example contains({ data: { hello: 'world' }, foo: 2 }, 'foo') => false
- * @example contains({}, 'data') => false
+ * @example contains({ thing: { more: { magic: 44 } } }, 44) => true
+ * @example contains({ thing: { more: { magic: 44 } } }, 'foo') => false
  *
  * @param {ObjectPlain} obj - Object to search
  * @param {JSONPrimitive} value - Value to search for

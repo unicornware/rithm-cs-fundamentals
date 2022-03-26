@@ -13,7 +13,8 @@ describe('unit:recursion/exercises/productOfArray', () => {
     { expected: -6, parameters: [[1, -2, 3]] },
     { expected: 0, parameters: [[]] },
     { expected: 0, parameters: [[0, 1, 2, 3]] },
-    { expected: 6, parameters: [[1, 2, 3]] }
+    { expected: 6, parameters: [[1, 2, 3]] },
+    { expected: 60, parameters: [[1, 2, 3, 10]] }
   ]
 
   cases.forEach(({ expected, parameters }) => {
