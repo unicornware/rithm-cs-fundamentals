@@ -54,6 +54,7 @@ const config: UserConfig = {
         'deps-opt',
         'deps-peer',
         'ds',
+        'dynamic-programming',
         'fixtures',
         'github',
         'graphs',
