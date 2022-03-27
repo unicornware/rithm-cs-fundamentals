@@ -45,6 +45,7 @@ const SKIP_WORDS = [
   'cjs',
   'commitlint',
   'ctx',
+  'curr',
   'dedupe',
   'dgram',
   'dns',
