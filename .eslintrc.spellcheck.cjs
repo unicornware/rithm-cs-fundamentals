@@ -35,6 +35,7 @@ const SKIP_WORD_IF_MATCH = []
  */
 const SKIP_WORDS = [
   ...DEFAULTS.skipWords,
+  'abc',
   'algs',
   'argv',
   'bst',
@@ -95,6 +96,7 @@ const SKIP_WORDS = [
   'sinon',
   'stringified',
   'strs',
+  'subsequence',
   'substrings',
   'testcase',
   'tgz',
@@ -157,7 +159,7 @@ const config = {
           SEVERITY,
           Object.assign({}, OPTIONS, {
             ...OPTIONS,
-            skipWords: [...SKIP_WORDS, 'csf']
+            skipWords: [...SKIP_WORDS, 'aec', 'ahbgdc', 'axc', 'baab', 'csf']
           })
         ]
       }
