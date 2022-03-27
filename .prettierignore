@@ -6,9 +6,10 @@
 coverage/*
 node_modules/*
 
-**/.gitkeep
+**/*.gif
 **/*.pdf
 **/*.png
+**/.gitkeep
 .eslintignore
 .env.*
 .env
