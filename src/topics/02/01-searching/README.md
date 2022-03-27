@@ -1,7 +1,7 @@
 # Searching Algorithms
 
 See:
-<https://rithmschool.com/courses/javascript-computer-science-fundamentals/searching>
+<https://rithmschool.com/courses/javascript-computer-science-fundamentals/searching-algorithms>
 
 ## Objectives
 
