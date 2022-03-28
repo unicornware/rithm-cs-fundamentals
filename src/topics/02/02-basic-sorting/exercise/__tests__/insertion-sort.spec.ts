@@ -3,6 +3,12 @@
  * @module csf/topics/searching/exercise/tests/unit/insertionSort
  */
 
+import ARRAY_EMPTY from '@fixtures/array-empty.fixture'
+import ARRAY_ONE_ITEM from '@fixtures/array-one-item.fixture'
+import NUMS_SORTED_NEG from '@fixtures/nums-sorted-neg.fixture'
+import NUMS_SORTED from '@fixtures/nums-sorted.fixture'
+import NUMS_UNSORTED_NEG from '@fixtures/nums-unsorted-neg.fixture'
+import NUMS_UNSORTED from '@fixtures/nums-unsorted.fixture'
 import type { TestcaseFn } from '@tests/interfaces'
 import testSubject from '../insertion-sort'
 
@@ -10,16 +16,10 @@ describe('unit:searching/exercise/insertionSort', () => {
   interface Case extends TestcaseFn<typeof testSubject> {}
 
   const cases: Case[] = [
-    { expected: [], parameters: [[]] },
-    { expected: [13], parameters: [[13]] },
-    {
-      expected: [1, 2, 4, 5, 9, 10, 15, 21],
-      parameters: [[4, 5, 1, 21, 2, 9, 10, 15]]
-    },
-    {
-      expected: [-10, -2, 0, 4, 9, 12, 22, 35],
-      parameters: [[9, -2, 0, 35, 4, -10, 22, 12]]
-    }
+    { expected: ARRAY_EMPTY, parameters: [ARRAY_EMPTY] },
+    { expected: ARRAY_ONE_ITEM, parameters: [ARRAY_ONE_ITEM] },
+    { expected: NUMS_SORTED, parameters: [NUMS_UNSORTED] },
+    { expected: NUMS_SORTED_NEG, parameters: [NUMS_UNSORTED_NEG] }
   ]
 
   cases.forEach(({ expected, parameters }) => {
