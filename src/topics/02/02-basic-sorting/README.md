@@ -24,7 +24,8 @@ By the end of this chapter, be able to:
      - Since the rightmost element from the last iteration is now sorted, this
        process will terminate earlier and earlier each time it is repeated
 
-- Runtime:
+- Runtime
+
   - Average / Worst Case: <code>O(n<sup>2</sup>)</code>
     - Nesting of loops: At each iteration, a subarray of the original array is
       iterated over
@@ -48,7 +49,8 @@ For more info, see: [CS50 - Bubble Sort][1]
      sorted portion to position the element correctly
   4. Repeat until the array is sorted
 
-- Runtime:
+- Runtime
+
   - Average / Worst Case: <code>O(n<sup>2</sup>)</code>
     - For each element in the array, iterate through the array to find the
       element's proper position
@@ -75,7 +77,8 @@ For more info, see: [CS50 - Bubble Sort][1]
        correct place)
   5. Repeat with the next element until the array is sorted
 
-- Runtime:
+- Runtime
+
   - Average / Worst Case: <code>O(n<sup>2</sup>)</code>
   - Best Case: <code>O(n<sup>2</sup>)</code>
 
