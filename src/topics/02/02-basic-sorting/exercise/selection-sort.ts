@@ -1,5 +1,5 @@
 /**
- * @file Sorting Algorithms Exercise - selectionSort
+ * @file Basic Sorting Algorithms Exercise - selectionSort
  * @module csf/topics/basic-sorting/exercise/selectionSort
  */
 

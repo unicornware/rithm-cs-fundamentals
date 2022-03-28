@@ -1,5 +1,5 @@
 /**
- * @file Sorting Algorithms Exercise - insertionSort
+ * @file Basic Sorting Algorithms Exercise - insertionSort
  * @module csf/topics/basic-sorting/exercise/insertionSort
  */
 

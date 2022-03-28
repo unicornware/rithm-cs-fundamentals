@@ -1,5 +1,5 @@
 /**
- * @file Sorting Algorithms Exercise - bubbleSort
+ * @file Basic Sorting Algorithms Exercise - bubbleSort
  * @module csf/topics/basic-sorting/exercise/bubbleSort
  */
 
