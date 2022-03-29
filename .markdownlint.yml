@@ -67,6 +67,8 @@ MD033:
     - br
     - code
     - div
+    - figcaption
+    - figure
     - img
     - sub
     - sup
