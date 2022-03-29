@@ -60,6 +60,7 @@ const config: UserConfig = {
         'graphs',
         'hash-tables',
         'heaps',
+        'linked-lists',
         'queues',
         'recursion',
         'scripts',
