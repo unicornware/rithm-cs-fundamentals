@@ -57,11 +57,6 @@
       "extensions": ["__fixtures__"],
       "format": "svg",
       "icon": "data"
-    },
-    {
-      "extensions": ["topics"],
-      "format": "svg",
-      "icon": "library"
     }
   ]
 }

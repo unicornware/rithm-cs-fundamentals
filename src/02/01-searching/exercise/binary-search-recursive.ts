@@ -3,7 +3,7 @@
  * @module csf/topics/searching/exercise/binarySearchRecursive
  */
 
-import binarySearch from '@csf/topics/01/02-recursion/exercise/binary-search'
+import binarySearch from '@csf/01/02-recursion/exercise/binary-search'
 
 /**
  * Given a **sorted** integer array, `array`, the function returns the index of

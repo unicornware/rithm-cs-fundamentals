@@ -3,7 +3,7 @@
  * @module csf/topics/searching/exercise/linearSearchRecursive
  */
 
-import search from '@csf/topics/01/02-recursion/exercise/search'
+import search from '@csf/01/02-recursion/exercise/search'
 
 /**
  * Given an integer array, `array`, the function returns the index of `value`,
