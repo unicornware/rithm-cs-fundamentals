@@ -42,12 +42,14 @@
     "test:ci": "CI=true yarn test",
     "test:coverage": "yarn test; serve ./coverage/lcov-report"
   },
+  "dependencies": {
+    "@flex-development/tutils": "4.8.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
     "@commitlint/types": "13.2.0",
     "@faker-js/faker": "6.0.0",
-    "@flex-development/tutils": "4.8.0",
     "@types/chai": "4.3.0",
     "@types/eslint": "8.4.1",
     "@types/mocha": "9.1.0",
