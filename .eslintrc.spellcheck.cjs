@@ -60,6 +60,7 @@ const SKIP_WORDS = [
   'filenames',
   'formatter',
   'fs',
+  'func',
   'globals',
   'gt',
   'gte',
