@@ -43,7 +43,8 @@
     "test:coverage": "yarn test; serve ./coverage/lcov-report"
   },
   "dependencies": {
-    "@flex-development/tutils": "4.8.0"
+    "@flex-development/tutils": "4.8.0",
+    "pretty-format": "27.3.1"
   },
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
@@ -89,7 +90,6 @@
     "nyc": "15.1.0",
     "prettier": "2.5.1",
     "prettier-plugin-sh": "0.8.1",
-    "pretty-format": "27.3.1",
     "serve": "13.0.2",
     "shelljs": "0.8.5",
     "sinon": "13.0.1",
